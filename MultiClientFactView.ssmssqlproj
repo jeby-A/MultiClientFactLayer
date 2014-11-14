@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="FactView">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="FXB04SS0401:FILEX\HHuang">
+          <Created>2014-11-07T11:46:08.9027009-07:00</Created>
+          <Type>SQL</Type>
+          <Server>FXB04SS0401</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="b01reportserversql.traxtech.com:FILEX\HHuang">
+          <Created>2014-11-06T10:50:04.3726724-07:00</Created>
+          <Type>SQL</Type>
+          <Server>b01reportserversql.traxtech.com</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>GEAMRProd_00</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="fxb05ss0410cl:FILEX\HHuang">
+          <Created>2014-11-11T16:11:57.8323208-07:00</Created>
+          <Type>SQL</Type>
+          <Server>fxb05ss0410cl</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="fact.BO_MultiClient_InvoiceExt.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.BO_MultiClient_InvoiceExt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.BO_MultiClient_Invoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.BO_MultiClient_Invoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.BO_MultiClient_CA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.BO_MultiClient_CA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Mapped_MultiClient_InvDocGeo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Mapped_MultiClient_InvDocGeo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Mapped_MultiClient_FrghtBl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Mapped_MultiClient_FrghtBl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Mapped_MultiClient_Invoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Mapped_MultiClient_Invoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_BillingAccount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_BillingAccount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_DataSource.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_DataSource.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_InvDoc_FbGeo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_InvDoc_FbGeo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_InvDoc_InvGeo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_InvDoc_InvGeo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_InvoiceFlow.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_InvoiceFlow.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_UnionAddr.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_UnionAddr.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_Weight.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_Weight.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Operation_MultiClient_PaymentTerm.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Operation_MultiClient_PaymentTerm.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Refined_MultiClient_InvDocGeo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Refined_MultiClient_InvDocGeo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Refined_MultiClient_FbLn.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fact.Refined_MultiClient_FbLn.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Refined_MultiClient_FrghtBl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Refined_MultiClient_FrghtBl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Refined_MultiClient_Invoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Refined_MultiClient_Invoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.SourceMapped_MultiClient_FedexFreightEastPaperInvoice.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fact.SourceMapped_MultiClient_FedexFreightEastPaperInvoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.TraxStandard_MultiClient.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.TraxStandard_MultiClient.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fact.Invoice_Chameleon_Base.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fact.Invoice_Chameleon_Base.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SourceDataHealth Example.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:b01reportserversql.traxtech.com:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>b01reportserversql.traxtech.com</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SourceDataHealth Example.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fxb05ss0410cl:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fxb05ss0410cl</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Schema.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
